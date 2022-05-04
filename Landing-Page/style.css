@@ -1,0 +1,236 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px; 
+    background-color: #1f2937;
+    
+}
+
+.header {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    font-family: 'Radio Canada', 'Montserrat';
+    
+}
+
+.headerLinks {
+    display: flex;
+    gap: 8px;
+    color: #f9faf8;
+}
+
+/* work in progress
+
+a.headerLinks:hover, a.headerLinks:active {
+    color: blue;
+}
+
+*/
+
+/*figure out why css only works on links this way */
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-family: 'Radio Canada', 'Montserrat';
+}
+
+/*
+.header,.sectionOne {
+    border-radius: 15px 50px 30px;
+}
+*/
+.sectionOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    
+}
+
+.sectionOneDetails {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: #f9faf8;
+    }
+.sectionOneTitle {
+    font-family: 'Radio Canada', 'Montserrat';
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.sectionOnePicture {
+    width: 3in;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 65px;
+
+}
+a.sectionOneButton:link, a.sectionOneButton:visited  {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.sectionOneButton:hover, a.sectionOneButton:active {
+    background-color: #8bb0eb;
+}
+
+/*Section 2 Figure out how to properly line up text w/ img's & rework .sectionTwo
+
+.sectionTwo {
+    display: flex;
+    flex-flow: column nowrap;
+}
+*/
+.sectionTwoTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 36px bolder #1f2937;
+    font-family: 'radio canada';
+}
+.sectionTwoDetails {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /*gap: 90px;*/
+    margin-left: 1in;
+    margin-right: 1in;
+    text-align: center;
+    font-size: smaller;
+}
+.sectionTwoPOne, .sectionTwoPTwo, .sectionTwoPThree, .sectionTwoPFour {
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+.sectionTwoPictures {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    gap: 10px;
+    
+}
+.sectionTwoPictureOne, .sectionTwoPictureTwo, .sectionTwoPictureThree, .sectionTwoPictureFour {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    border: 5px solid 1f2937;
+    border-radius: 12px;
+}
+/*
+p.sectionTwoPOne, p.sectionTwoPTwo, p.sectionTwoPThree, p.sectionTwoPFour  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+*/
+
+
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    /*
+    justify-content: center;
+    align-items: center;
+    */
+    background-color: #e5e7eb;
+    
+    font-family: 'radio canada';
+    
+
+}
+.sectionThreeTitle {
+    display: flex;
+    justify-content: center;
+    font: 36px #1f2937;
+    font-style: italic;
+    font-family: 'radio canada';
+    padding: 5% 18%;
+    margin: 0;
+}
+
+h3.sectionThreeCredit {
+    display: flex;
+    text-align: center;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    justify-content: flex-end;
+    margin: 0;
+    font-family: 'lato';
+}
+
+.sectionFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    /*margin: 35px 100px;*/
+    width: 700px;
+    height: 100px;
+    margin-left: 260px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.sectionFourButtonDetails {
+    display: flex;
+    flex-flow: column;
+}
+.sectionFourButtonTitle {
+    font-size: 24px;
+    font-family: 'lato';
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0;
+    
+} 
+.sectionFourButtonDescrip {
+    font-size: 12px;
+    font-family: 'lato';
+    color: white;
+    margin-top: 0;
+    margin-bottom: 50px;  
+}
+
+a.sectionFourButton:link, a.sectionFourButton:visited  {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.sectionFourButton:hover, a.sectionFourButton:active {
+    background-color: #8bb0eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'radio canada';
+    background-color: #1f2937;
+    padding: 2%;
+}
